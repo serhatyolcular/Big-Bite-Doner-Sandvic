@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Bite Döner & Sandviç</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loading">
+        <img src="bigbitelogo.png">
+    </div>
+
+    <div class="home-container" id="home">
+        <h1 class="home-title">Big Bite Döner & Sandviç</h1>
+        <div class="contact-info">
+            <a href="tel:+902324255514">📞 0232 425 55 14</a>
+            <a href="https://www.google.com/maps/place/Big+Bite+D%C3%B6ner+%26+Sandvi%C3%A7/@38.4223271,27.1323064,17z/data=!3m1!4b1!4m6!3m5!1s0x14bbd9030f088e2b:0x718bbaf30161ed9b!8m2!3d38.4223271!4d27.1323064!16s%2Fg%2F11fmw0sfh_?entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D" target="_blank">📍 Konum için tıklayın</a>
+        </div>
+        <div class="online-order">
+            <a href="https://www.yemeksepeti.com/big-bite" target="_blank">
+                <img src="yemeksepeti.png" alt="Yemeksepeti">
+            </a>
+            <a href="https://www.migros.com.tr/yemek" target="_blank">
+                <img src="migrosyemek.png" alt="Migros Yemek">
+            </a>
+            <a href="https://getir.com/yemek" target="_blank">
+                <img src="getiryemek.png" alt="Getir Yemek">
+            </a>
+        </div>
+        <button class="menu-button" onclick="showMenu()">Menüyü Görüntüle</button>
+    </div>
+
+    <div class="menu-container" id="menu">
+        <button class="home-button" onclick="showHome()">Anasayfaya Dön</button>
+        <img src="bigbitelogo.png" alt="Big Bite Logo" class="menu-logo">
+        <h1 class="restaurant-name">Big Bite Döner & Sandviç</h1>
+
+        <div class="menu-sections-container">
+            <div class="menu-section">
+                <h2 class="section-title">Tavuk Döner</h2>
+                <div class="menu-item">
+                    <span class="item-name">Tavuk Beyti</span>
+                    <span class="item-ingredients">Tavuk döner, lavaş ekmeği, domates sosu, tereyağı, közlenmiş biber, domates</span>
+                    <span class="item-price">250 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tavuk İskender</span>
+                    <span class="item-ingredients">Tavuk döner, pide ekmeği, domates sosu, tereyağı, yoğurt</span>
+                    <span class="item-price">240 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tavuk Porsiyon</span>
+                    <span class="item-ingredients">lavaş ekmeği,domates sosu,biber,domates,soğan,yoğurt</span>
+                    <span class="item-price">220 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">İçi Bol Zurna Dürüm</span>
+                    <span class="item-ingredients">130 gr Sarımsaklı mayonez,Salça sosu,patates</span>
+                    <span class="item-price">170 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Zurna Dürüm</span>
+                    <span class="item-ingredients">110 gr Sarımsaklı mayonez,Salça sosu,patates</span>
+                    <span class="item-price">150 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kaşarlı Zurna Dürüm</span>
+                    <span class="item-ingredients">110 gr Sarımsaklı mayonez,Salça sosu,patates</span>
+                    <span class="item-price">170 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Antakya Dürüm</span>
+                    <span class="item-ingredients">90 gr Sarımsaklı mayonez,Salça sosu,patates</span>
+                    <span class="item-price">110 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">İçi Bol Antakya Dürüm</span>
+                    <span class="item-ingredients">110 gr Sarımsaklı mayonez,Salça sosu,patates</span>
+                    <span class="item-price">130 ₺</span>
+                </div>
+                 <div class="menu-item">
+                    <span class="item-name">Kaşarlı Antakya Dürüm</span>
+                    <span class="item-ingredients">90 gr Sarımsaklı mayonez,Salça sosu,patates</span>
+                    <span class="item-price">130 ₺</span>
+                </div>
+                 <div class="menu-item">
+                    <span class="item-name">Chedarlı Antakya Dürüm</span>
+                    <span class="item-ingredients">90 gr Sarımsaklı mayonez,Salça sosu,patates</span>
+                    <span class="item-price">130 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tavuk Dürüm</span>
+                    <span class="item-ingredients">90 gr domates, soğan, marul, özel sos</span>
+                    <span class="item-price">110 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Tombik Ekmek</span>
+                    <span class="item-ingredients">90 gr domates, soğan, marul, özel sos</span>
+                    <span class="item-price">110 ₺</span>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2 class="section-title">Sandviç</h2>
+                <div class="menu-item">
+                    <span class="item-name">Karışık Sandviç</span>
+                    <span class="item-ingredients">salça,salam,sosis,sucuk,kaşar,ketçap,mayonez</span>
+                    <span class="item-price">150 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">İzmir Kumru</span>
+                    <span class="item-ingredients">salça,salam,sosis,sucuk,kaşar,ketçap,mayonez</span>
+                    <span class="item-price">150 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Karışık Ayvalık Tostu</span>
+                    <span class="item-ingredients">salça,salam,sosis,sucuk,kaşar,ketçap,mayonez</span>
+                    <span class="item-price">150 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Yumurtalı Karışık Sandviç</span>
+                    <span class="item-ingredients">salça,salam,sosis,sucuk,kaşar,ketçap,mayonez</span>
+                    <span class="item-price">160₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Sucuk Kaşar</span>
+                    <span class="item-ingredients">Sucuk,Kaşar,Salça</span>
+                    <span class="item-price">130 ₺</span>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2 class="section-title">Burger&Aperatif</h2>
+                 <div class="menu-item">
+                    <span class="item-name">Köfte Burger</span>
+                    <span class="item-ingredients">Köfte,Kaşar,Sos,Karamelize soğan</span>
+                    <span class="item-price">160 ₺</span>
+                </div>
+
+                <div class="menu-item">
+                    <span class="item-name">Patso</span>
+                    <span class="item-ingredients">Patates,Ekmek,Ketçap,Mayonez,Cajun Sos </span>
+                    <span class="item-price">150 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Patates Kızartması</span>
+                    <span class="item-price">60 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Soğan Halkası</span>
+                    <span class="item-ingredients">6'lı 9'lu</span>
+                    <span class="item-price">40 ₺</span>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2 class="section-title">İçecekler</h2>
+                <div class="menu-item">
+                    <span class="item-name">İce Tea</span>
+                    <span class="item-ingredients">Şeftali / Limon</span>
+                    <span class="item-price">50 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kutu Coca Cola</span>
+
+                    <span class="item-price">50 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kutu Sprite</span>
+
+                    <span class="item-price">50 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kutu Fanta</span>
+
+                    <span class="item-price">50 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Şişe Kola</span>
+
+                    <span class="item-price">40 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Şişe Gazoz</span>
+
+                    <span class="item-price">40 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Şalgam</span>
+                    <span class="item-ingredients">Acılı / Acısız</span>
+                    <span class="item-price">30 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Büyük Ayran</span>
+
+                    <span class="item-price">30 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Ayran</span>
+
+                    <span class="item-price">20 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Soda</span>
+                    <span class="item-ingredients">Sade / Meyveli</span>
+                    <span class="item-price">20 ₺</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Su</span>
+
+                    <span class="item-price">15 ₺</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
